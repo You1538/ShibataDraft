@@ -3,311 +3,121 @@
     "members": [
       {
         "num": "1",
-        "場所": "職短",
+        "場所": "桜",
         "model": "assets/sakura.glb",
         "rotation": "0 0 0",
         "scale": "2 2 2",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.95623964531757",
-        "longitude": "139.3371717973987"
+        "latitude": "37.956296639834825",
+        "longitude": "139.33769872162506"
       },
       {
         "num": "2",
-        "場所": "新発田市役所",
-        "model": "assets/text.glb",
+        "場所": "メロンソーダ",
+        "model": "assets/melonsoda.glb",
         "rotation": "0 0 0",
         "scale": "2 2 2",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.94781383890853",
-        "longitude": "139.32706387291938"
+        "latitude": "37.95618765135197",
+        "longitude": "139.3373653532007"
       },
       {
         "num": "3",
-        "場所": "新発田城",
-        "model": "assets/shibatajo.glb",
-        "rotation": "0 0 0",
-        "scale": "1 1 1",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.95493534310519",
-        "longitude": "139.32597092399263"
-      },
-      {
-        "num": "4",
-        "場所": "蕗谷虹児記念館",
-        "model": "assets/hukiyakouji.glb",
-        "rotation": "0 0 0",
-        "scale": "0.5 0.5 0.5",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.95177567198981",
-        "longitude": "139.32727454199866"
-      },
-      {
-        "num": "5",
-        "場所": "結城堂",
-        "model": "assets/.glb",
-        "rotation": "0 0 0",
-        "scale": "2 2 2",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.880347861691504",
-        "longitude": "139.30914421468543"
-      },
-      {
-        "num": "6",
-        "場所": "レストラン インダス",
-        "model": "assets/kare.glb",
-        "rotation": "-25 0 0",
-        "scale": "4 4 4",
-        "animation": "property: rotation; to: -25 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.94734543175105",
-        "longitude": "139.3289264927443"
-      },
-      {
-        "num": "7",
-        "場所": "山口時計眼鏡店",
-        "model": "assets/megane.glb",
-        "rotation": "0 0 0",
-        "scale": "2 2 2",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.94852035044161",
-        "longitude": "139.3249651375072"
-      },
-      {
-        "num": "8",
-        "場所": "和泉屋",
-        "model": "assets/mitarashi.glb",
-        "rotation": "0 0 0",
-        "scale": "2 2 2",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.94709514287901",
-        "longitude": "139.32938184552992"
-      },
-      {
-        "num": "9",
-        "場所": "和泉屋",
-        "model": "assets/gomaman.glb",
-        "rotation": "0 0 0",
-        "scale": "2 2 2",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.94704540189163",
-        "longitude": "139.32939304628667"
-      },
-      {
-        "num": "10",
-        "場所": "珈琲 詩織",
-        "model": "assets/melonsoda.glb",
-        "rotation": "0 0 0",
-        "scale": "1 1 1",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.9469988050018",
-        "longitude": "139.3304161471393"
-      },
-      {
-        "num": "11",
-        "場所": "HOT BOX",
-        "model": "assets/kuruma.glb",
-        "rotation": "0 0 0",
-        "scale": "2 2 2",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.947787717281756",
-        "longitude": "139.3263289383618"
-      },
-      {
-        "num": "12",
-        "場所": "翁屋",
-        "model": "assets/kinunoyuugetsu.glb",
-        "rotation": "0 0 0",
-        "scale": "2 2 2",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.94871466157485",
-        "longitude": "139.3243181903153"
-      },
-      {
-        "num": "13",
-        "場所": "セキカワカナモノ",
-        "model": "assets/pan.glb",
-        "rotation": "-20 0 0",
-        "scale": "1 1 1",
-        "animation": "property: rotation; to: -20 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.94907673030837",
-        "longitude": "139.32398490982246"
-      },
-      {
-        "num": "14",
-        "場所": "COCOLATTE Café",
-        "model": "assets/cafelatte.glb",
-        "rotation": "0 0 0",
-        "scale": "1 1 1",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.9474793329246",
-        "longitude": "139.32820394864558"
-      },
-      {
-        "num": "15",
-        "場所": "煉瓦屋",
-        "model": "assets/kurimusoda.glb",
-        "rotation": "0 0 0",
-        "scale": "1 1 1",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.94889850563191",
-        "longitude": "139.3243090612117"
-      },
-      {
-        "num": "16",
-        "場所": "五十公野公園(あやめ園)",
-        "model": "assets/kinunoyuugetsu.glb",
-        "rotation": "0 0 0",
-        "scale": "2 2 2",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.94871466157485",
-        "longitude": "139.3243181903153"
-      },
-      {
-        "num": "17",
-        "場所": "五十公野公園(テニスラケット)",
-        "model": "assets/tenisuraketto.glb",
-        "rotation": "30 0 0",
-        "scale": "2 2 2",
-        "animation": "property: rotation; to: 30 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.93674483232794",
-        "longitude": "139.3557529684019"
-      },
-      {
-        "num": "18",
-        "場所": "五十公野公園(テニスボール)",
-        "model": "assets/tenisuboru.glb",
-        "rotation": "0 0 0",
-        "scale": "1 1 1",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.93674483232794",
-        "longitude": "139.3557529684019"
-      },
-      {
-        "num": "19",
-        "場所": "五十公野公園(野球ボール)",
-        "model": "assets/yakyuuboru.glb",
-        "rotation": "0 0 90",
-        "scale": "1 1 1",
-        "animation": "property: rotation; to: 360 0 90; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.93674483232794",
-        "longitude": "139.3557529684019"
-      },
-      {
-        "num": "20",
-        "場所": "五十公野公園(バット)",
-        "model": "assets/yakyuubatto.glb",
-        "rotation": "30 0 0",
-        "scale": "0.5 0.5 0.5",
-        "animation": "property: rotation; to: 30 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.93674483232794",
-        "longitude": "139.3557529684019"
-      },
-      {
-        "num": "21",
-        "場所": "五十公野公園(バレーボール)",
-        "model": "assets/bareboru.glb",
-        "rotation": "0 0 0",
-        "scale": "1.5 1.5 1.5",
-        "animation": "property: rotation; to: 360 360 360; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.93674483232794",
-        "longitude": "139.3557529684019"
-      },
-      {
-        "num": "22",
-        "場所": "月岡 温泉マーク",
-        "model": "assets/onsen.glb",
-        "position": "0 55 0",
-        "rotation": "0 0 0",
-        "scale": "2 2 2",
-        "look-at": "[gps-camera]",
-        "latitude": "37.88106458170879",
-        "longitude": "139.31095811420894"
-      },
-      {
-        "num": "23",
-        "場所": "月岡饅頭",
-        "model": "assets/tsukiokamanju.glb",
-        "rotation": "0 0 0",
-        "scale": "2 2 2",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.88106458170879",
-        "longitude": "139.31095811420894"
-      },
-      {
-        "num": "24",
         "場所": "カトリック教会",
         "model": "assets/katoriku.glb",
         "rotation": "0 0 0",
         "scale": "0.3 0.3 0.3",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.95056125833598",
-        "longitude": "139.3286530981394"
+        "latitude": "37.95593441278209",
+        "longitude": "139.33726371648595"
       },
       {
-        "num": "25",
-        "場所": "足軽長屋",
-        "model": "assets/ashigaru.glb",
+        "num": "4",
+        "場所": "きぬの夕月",
+        "model": "assets/kinunoyuugetsu.glb",
+        "rotation": "0 0 0",
+        "scale": "3 3 3",
+        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
+        "latitude": "37.95567155663421",
+        "longitude": "139.33740600788659"
+      },
+      {
+        "num": "5",
+        "場所": "新発田城",
+        "model": "assets/shibatajo.glb",
         "rotation": "0 0 0",
         "scale": "0.2 0.2 0.2",
-        "latitude": "37.94355964206283",
-        "longitude": "139.32894797266616"
+        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
+        "latitude": "37.955559361650494",
+        "longitude": "139.3377068525622"
       },
       {
-        "num": "26",
-        "場所": "鮨 登喜和",
-        "model": "assets/sushiglb",
+        "num": "6",
+        "場所": "新発田市章",
+        "model": "assets/text.glb",
+        "rotation": "-25 0 0",
+        "scale": "2 2 2",
+        "animation": "property: rotation; to: -25 360 0; loop: true; dur: 15000; easing: linear;",
+        "latitude": "37.95568758447501",
+        "longitude": "139.3379955008321"
+      },
+      {
+        "num": "7",
+        "場所": "あやめ",
+        "model": "assets/ayame.glb",
         "rotation": "0 0 0",
         "scale": "2 2 2",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.949142096886206",
-        "longitude": "139.3245144982879"
+        "latitude": "37.95591838499512",
+        "longitude": "139.33815405410706"
       },
       {
-        "num": "27",
-        "場所": "映画館",
-        "model": "assets/shibataeiga.glb",
+        "num": "8",
+        "場所": "カレーライス",
+        "model": "assets/kare.glb",
         "rotation": "0 0 0",
-        "scale": "1 1 1",
-        "animation": "",
-        "latitude": "37.94879756277855",
-        "longitude": "139.32451614013436"
+        "scale": "2 2 2",
+        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
+        "latitude": "37.95618765135197",
+        "longitude": "139.3380320900494"
       },
       {
-        "num": "28",
-        "場所": "双子蔵",
-        "model": "assets/hutakokura.glb",
-        "rotation": "0 0 0",
-        "scale": "1 1 1",
-        "animation": "",
-        "latitude": "37.94629875303892",
-        "longitude": "139.32767213940372"
-      },
-      {
-        "num": "29",
+        "num": "9",
         "場所": "",
         "model": "assets/.glb",
         "rotation": "0 0 0",
-        "scale": "1 1 1",
-        "animation": "",
+        "scale": "2 2 2",
+        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
         "latitude": "",
         "longitude": ""
       },
       {
-        "num": "30",
+        "num": "10",
         "場所": "",
         "model": "assets/.glb",
         "rotation": "0 0 0",
         "scale": "1 1 1",
-        "animation": "",
+        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
         "latitude": "",
         "longitude": ""
       },
       {
-        "num": "31",
+        "num": "11",
         "場所": "",
         "model": "assets/.glb",
         "rotation": "0 0 0",
-        "scale": "1 1 1",
-        "animation": "",
+        "scale": "2 2 2",
+        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
+        "latitude": "",
+        "longitude": ""
+      },
+      {
+        "num": "12",
+        "場所": "",
+        "model": "assets/.glb",
+        "rotation": "0 0 0",
+        "scale": "2 2 2",
+        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
         "latitude": "",
         "longitude": ""
       }
