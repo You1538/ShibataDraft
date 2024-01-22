@@ -6,8 +6,8 @@
         "場所": "桜",
         "model": "assets/sakura.glb",
         "position": "",
-        "rotation": "0 0 0",
-        "scale": "2 2 2",
+        "rotation": "",
+        "scale": "",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
         "latitude": "37.956296639834825",
         "longitude": "139.33769872162506"
