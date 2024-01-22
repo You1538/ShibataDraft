@@ -57,7 +57,7 @@
         "num": "5",
         "場所": "野球バット(新発田城)",
         "model": "assets/yakyuubatto.glb",
-        "position": "-100 -20 0",
+        "position": "-0 -50 -100",
         "rotation": "30 0 0",
         "scale": "1 1 1",
         "animation": "",
@@ -68,22 +68,12 @@
         "num": "5",
         "場所": "野球ボール(新発田城)",
         "model": "assets/yakyuuboru.glb",
-        "position": "100 0 0",
+        "position": "0 0 100",
         "rotation": "0 0 0",
         "scale": "2 2 2",
         "animation": "property: rotation; to: 0 0 360; loop: true; dur: 1500; easing: linear;",
         "latitude": "37.955559361650494",
         "longitude": "139.3377068525622"
-      },
-      {
-        "num": "6",
-        "場所": "新発田市章",
-        "model": "assets/text.glb",
-        "rotation": "-25 0 0",
-        "scale": "2 2 2",
-        "animation": "property: rotation; to: -25 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.95568758447501",
-        "longitude": "139.3379955008321"
       },
       {
         "num": "7",
