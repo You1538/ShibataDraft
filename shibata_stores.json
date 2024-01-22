@@ -31,8 +31,8 @@
         "rotation": "80 180 10",
         "scale": "5 5 5",
         "animation": "",
-        "latitude": "37.95618765135197",
-        "longitude": "139.3373653532007"
+        "latitude": "37.95624089521487",
+        "longitude": "139.33741741580295"
       },
       {
         "num": "3",
@@ -60,21 +60,21 @@
         "num": "5",
         "場所": "野球バット(新発田城)",
         "model": "assets/yakyuubatto.glb",
-        "position": "50 0 0",
-        "rotation": "30 0 0",
+        "position": "",
+        "rotation": "30 0 30",
         "scale": "1 1 1",
         "animation": "",
-        "latitude": "37.955559361650494",
-        "longitude": "139.3377068525622"
+        "latitude": "37.955594267615496",
+        "longitude": "139.33780814993966"
       },
       {
         "num": "5",
         "場所": "野球ボール(新発田城)",
         "model": "assets/yakyuuboru.glb",
-        "position": "-50 0 0",
+        "position": "",
         "rotation": "0 0 0",
         "scale": "2 2 2",
-        "animation": "property: rotation; to: 0 0 360; loop: true; dur: 1500; easing: linear;",
+        "animation": "property: rotation; to: 0 0 360; loop: true; dur: 1000; easing: linear;",
         "latitude": "37.955559361650494",
         "longitude": "139.3377068525622"
       },
