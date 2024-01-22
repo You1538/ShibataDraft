@@ -15,9 +15,9 @@
         "num": "2",
         "場所": "テニスボール",
         "model": "assets/tenisuboru.glb",
-        "position": "40 0 0"
+        "position": "40 0 0",
         "rotation": "0 0 0",
-        "scale": "2 2 2",
+        "scale": "5 5 5",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
         "latitude": "37.95618765135197",
         "longitude": "139.3373653532007"
@@ -26,9 +26,9 @@
         "num": "2",
         "場所": "テニスラケット",
         "model": "assets/tenisuraketto.glb",
-        "position": "-40 0 0"
+        "position": "-40 0 0",
         "rotation": "0 0 0",
-        "scale": "2 2 2",
+        "scale": "10 10 10",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
         "latitude": "37.95618765135197",
         "longitude": "139.3373653532007"
@@ -38,7 +38,7 @@
         "場所": "カトリック教会",
         "model": "assets/katoriku.glb",
         "rotation": "0 0 0",
-        "scale": "0.3 0.3 0.3",
+        "scale": "0.4 0.4 0.4",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
         "latitude": "37.95593441278209",
         "longitude": "139.33726371648595"
@@ -55,8 +55,20 @@
       },
       {
         "num": "5",
-        "場所": "新発田城",
-        "model": "assets/shibatajo.glb",
+        "場所": "野球ボール(新発田城)",
+        "model": "assets/yakyuubatto.glb",
+        "position": "-40 0 0",
+        "rotation": "0 0 0",
+        "scale": "10 10 10",
+        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
+        "latitude": "37.955559361650494",
+        "longitude": "139.3377068525622"
+      },
+      {
+        "num": "5",
+        "場所": "野球ボール(新発田城)",
+        "model": "assets/yakyuuboru.glb",
+        "position": "-40 0 0",
         "rotation": "0 0 0",
         "scale": "0.2 0.2 0.2",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
