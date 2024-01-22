@@ -19,6 +19,14 @@
      light="defaultLightsEnabled: false"
  >
 
+     <!-- 新発田市市章 -->
+        <a-entity
+            gltf-model="./assets/text.glb"
+            position="0 170 0"
+            scale="6 6 6"
+            look-at="[gps-camera]"
+            gps-entity-place="latitude: 37.95568758447501; longitude: 139.3379955008321">
+        </a-entity>
      
      <a-camera gps-camera="minDistance:5; maxDistance:500"></a-camera>
      <a-entity light="color: #BBB; type: ambient; intensity: 1.5" data-aframe-default-light="" aframe-injected=""></a-entity>
