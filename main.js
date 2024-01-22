@@ -13,6 +13,7 @@ function createEntityElements(jsonData) {
     entities.forEach(function (entityInfo) {
         var entityElement = document.createElement('a-entity');
         entityElement.setAttribute('gltf-model', entityInfo.model);
+        entityElement.setAttribute('position', entityInfo.position);
         entityElement.setAttribute('rotation', entityInfo.rotation);
         entityElement.setAttribute('scale', entityInfo.scale);
         entityElement.setAttribute('animation', entityInfo.animation);
