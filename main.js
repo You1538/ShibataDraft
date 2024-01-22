@@ -1,3 +1,4 @@
+/*
 function getLocation() {
     const isPermissionGranted = window.confirm("位置情報の利用を許可しますか？");
 
@@ -5,6 +6,7 @@ function getLocation() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(
                 function(position) {
+*/
 /////////////////////////////////////////////////////////////////////////////////////////
 function createEntityElements(jsonData) {
     var entities = jsonData.members;
@@ -33,7 +35,8 @@ fetch('shibata_stores.json')
     .catch(error => console.error('Error fetching JSON:', error));
 
 /////////////////////////////////////////////////////////////////////////////////////////
-                },
+/*
+},
                 function(error) {
                     const errorMessage = "位置情報の取得に失敗しました。エラーコード: " + error.code + "\nエラーメッセージ: " + error.message;
                     alert(errorMessage);
@@ -51,7 +54,7 @@ fetch('shibata_stores.json')
         console.error(errorMessage);
     }
 }
-
+*/
 document.addEventListener("DOMContentLoaded", function() {
     getLocation();
 });
