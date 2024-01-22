@@ -13,8 +13,20 @@
       },
       {
         "num": "2",
-        "場所": "メロンソーダ",
-        "model": "assets/melonsoda.glb",
+        "場所": "テニスボール",
+        "model": "assets/tenisuboru.glb",
+        "position": "40 0 0"
+        "rotation": "0 0 0",
+        "scale": "2 2 2",
+        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
+        "latitude": "37.95618765135197",
+        "longitude": "139.3373653532007"
+      },
+      {
+        "num": "2",
+        "場所": "テニスラケット",
+        "model": "assets/tenisuraketto.glb",
+        "position": "-40 0 0"
         "rotation": "0 0 0",
         "scale": "2 2 2",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
@@ -75,9 +87,9 @@
         "num": "8",
         "場所": "カレーライス",
         "model": "assets/kare.glb",
-        "rotation": "0 0 0",
+        "rotation": "-25 0 0",
         "scale": "2 2 2",
-        "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
+        "animation": "property: rotation; to: -25 360 0; loop: true; dur: 15000; easing: linear;",
         "latitude": "37.95618765135197",
         "longitude": "139.3380320900494"
       },
