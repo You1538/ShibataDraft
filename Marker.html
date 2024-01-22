@@ -15,28 +15,27 @@
       <a-assets>
         <!-- 3Dモデルを読み込む -->
         <a-asset-item id="daiwa" src="./assets/kingyodaiwa.glb" scale="1 1 1"></a-asset-item>
-        <a-asset-item id="applemove" src="./assets/applemove.glb" scale="1 1 1"></a-asset-item>
+        <a-asset-item id="piman" src="./assets/piman.glb" scale="1 1 1"></a-asset-item>
         <a-asset-item id="shibatajo" src="./assets/shibatajo.glb" scale="1 1 1"></a-asset-item>
         <a-asset-item id="text" src="./assets/text.glb" scale="1 1 1"></a-asset-item>
       </a-assets>
 
 
        <!-- マーカーを設定する -->
-      <a-marker type="pattern" url="apple.patt">
+      <a-marker type="pattern" url="./marker/apple.patt">
         <!-- 3Dモデルを呼び出す -->
           <a-entity id="apple" scale="1 1 1">
       <a-entity
-      gltf-model="#applemove"
+      gltf-model="#piman"
       position="0 2.15 0" 
       rotation="-90 0 0"
-      animation-mixer
       shadow="cast: true; receive: false"
       ></a-entity>
       </a-entity>
       </a-marker>
 
        <!-- マーカーを設定する -->
-      <a-marker type="pattern" url="kingyo.patt">
+      <a-marker type="pattern" url="./marker/kingyo.patt">
         <!-- 3Dモデルを呼び出す -->
         <a-entity
         gltf-model="#daiwa" 
@@ -46,18 +45,18 @@
       </a-marker>
 
              <!-- マーカーを設定する -->
-      <a-marker type="pattern" url="castle.patt">
+      <a-marker type="pattern" url="./marker/castle.patt">
         <!-- 3Dモデルを呼び出す -->
         <a-entity
         gltf-model="#shibatajo"
-        rotation="0 0 0"
+        rotation="-90 0 0"
         scale="0.1 0.1 0.1"
-        animation="property: rotation; to: 0 360 0; loop: true; dur: 7500; easing: linear;"
+        animation=""
         ></a-entity>
       </a-marker>
 
              <!-- マーカーを設定する -->
-      <a-marker type="pattern" url="marutext.patt">
+      <a-marker type="pattern" url="./marker/marutext.patt">
         <!-- 3Dモデルを呼び出す -->
         <a-entity
           gltf-model="#text" 
