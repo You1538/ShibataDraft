@@ -17,6 +17,35 @@
      renderer="logarithmicDepthBuffer: true"
      light="defaultLightsEnabled: false"
  >
+
+      <a-assets>
+        <!-- 3Dモデルを読み込む -->
+        <a-asset-item id="daiwa" src="./assets/kingyodaiwa.glb" scale="1 1 1"></a-asset-item>
+        <a-asset-item id="shibatajo" src="./assets/shibatajo.glb" scale="1 1 1"></a-asset-item>
+      </a-assets>
+
+            <!-- マーカーを設定する -->
+      <a-marker type="pattern" url="./marker/kingyo.patt">
+        <!-- 3Dモデルを呼び出す -->
+        <a-entity
+        gltf-model="#daiwa" 
+        rotation="0 0 0"
+        scale="0.7 0.7 0.7"
+        ></a-entity>
+      </a-marker>
+
+                  <!-- マーカーを設定する -->
+      <a-marker type="pattern" url="./marker/castle.patt">
+        <!-- 3Dモデルを呼び出す -->
+        <a-entity
+        gltf-model="#shibatajo"
+        rotation="0 0 0"
+        scale="0.1 0.1 0.1"
+        animation="property: rotation; to: 0 360 0; loop: true; dur: 7500; easing: linear;"
+        ></a-entity>
+      </a-marker>
+
+     
      <a-camera gps-camera="minDistance:5; maxDistance:500"></a-camera>
      <a-entity light="color: #BBB; type: ambient; intensity: 1.5" data-aframe-default-light="" aframe-injected=""></a-entity>
      <a-entity light="intensity: 1.2; castShadow: true" position="-0.5 1 1" data-aframe-default-light="" aframe-injected=""></a-entity>                
