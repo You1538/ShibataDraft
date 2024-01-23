@@ -72,9 +72,9 @@
         "場所": "野球ボール(新発田城)",
         "model": "assets/yakyuuboru.glb",
         "position": "",
-        "rotation": "0 -60 0",
+        "rotation": "0 180 0",
         "scale": "2 2 2",
-        "animation": "property: rotation; to: 0 -60 360; loop: true; dur: 600; easing: linear;",
+        "animation": "property: rotation; to: 0 180 360; loop: true; dur: 600; easing: linear;",
         "latitude": "37.955559361650494",
         "longitude": "139.3377068525622"
       },
