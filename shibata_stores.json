@@ -28,7 +28,7 @@
         "場所": "テニスラケット",
         "model": "assets/tenisuraketto.glb",
         "position": "",
-        "rotation": "80 180 10",
+        "rotation": "80 -140 10",
         "scale": "5 5 5",
         "animation": "",
         "latitude": "37.95624089521487",
