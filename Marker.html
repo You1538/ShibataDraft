@@ -1,86 +1,101 @@
 <html>
-  <head>
+
+<head>
     <!-- A-Frameを読み込む -->
-    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
     <!-- AR.jsを読み込む -->
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
-     <!-- animationmixerを読み込む -->
+    <!-- animationmixerを読み込む -->
     <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
     <!-- animationを読み込む -->
-    <script type="text/javascript" src="https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex-location-only.js"></script>
-  </head>
-  <body style="margin: 0; overflow: hidden">
+    <script type="text/javascript"
+        src="https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex-location-only.js"></script>
+</head>
+
+<body style="margin: 0; overflow: hidden">
     <!-- シーンの作成、VRモードのUI非表示 -->
     <a-scene embedded arjs vr-mode-ui="enabled: false" renderer="logarithmicDepthBuffer: true">
-      <a-assets>
-        <!-- 3Dモデルを読み込む -->
-        <a-asset-item id="daiwa" src="./assets/kingyodaiwa.glb" scale="1 1 1"></a-asset-item>
-        <a-asset-item id="piman" src="./assets/piman.glb" scale="1 1 1"></a-asset-item>
-        <a-asset-item id="shibatajo" src="./assets/shibatajo.glb" scale="1 1 1"></a-asset-item>
-        <a-asset-item id="text" src="./assets/text.glb" scale="1 1 1"></a-asset-item>
-      </a-assets>
+        <a-assets>
+            <!-- 3Dモデルを読み込む -->
+            <a-asset-item id="daiwa" src="./assets/kingyodaiwa.glb" scale="1 1 1"></a-asset-item>
+            <a-asset-item id="piman" src="./assets/piman.glb" scale="1 1 1"></a-asset-item>
+            <a-asset-item id="shibatajo" src="./assets/shibatajo.glb" scale="1 1 1"></a-asset-item>
+            <a-asset-item id="text" src="./assets/text.glb" scale="1 1 1"></a-asset-item>
+            <a-asset-item id="sakura" src="./assets/sakura.glb" scale="1 1 1"></a-asset-item>
+            <a-asset-item id="samurai" src="./assets/samurai.glb" scale="1 1 1"></a-asset-item>
+            <a-asset-item id="shop1" src="./assets/uoroku.glb" scale="1 1 1"></a-asset-item>
+            <a-asset-item id="shop2" src="./assets/kousetsu.glb" scale="1 1 1"></a-asset-item>
+        </a-assets>
 
 
-       <!-- マーカーを設定する -->
-      <a-marker type="pattern" url="./marker/apple.patt">
-        <!-- 3Dモデルを呼び出す -->
-          <a-entity id="apple" scale="1 1 1">
-      <a-entity
-      gltf-model="#piman"
-      position="0 2.15 0" 
-      rotation="-90 0 0"
-      shadow="cast: true; receive: false"
-      ></a-entity>
-      </a-entity>
-      </a-marker>
+        <!-- マーカーを設定する -->
+        <a-marker type="pattern" url="./marker/apple.patt">
+            <!-- 3Dモデルを呼び出す -->
+            <a-entity id="apple" scale="1 1 1">
+                <a-entity gltf-model="#piman" position="0 2.15 0" rotation="-90 0 0"
+                    shadow="cast: true; receive: false"></a-entity>
+            </a-entity>
+        </a-marker>
 
-       <!-- マーカーを設定する -->
-      <a-marker type="pattern" url="./marker/kingyo.patt">
-        <!-- 3Dモデルを呼び出す -->
-        <a-entity
-        gltf-model="#daiwa" 
-        rotation="0 0 0"
-        scale="0.7 0.7 0.7"
-        ></a-entity>
-      </a-marker>
+        <!-- マーカーを設定する -->
+        <a-marker type="pattern" url="./marker/kingyo.patt">
+            <!-- 3Dモデルを呼び出す -->
+            <a-entity gltf-model="#daiwa" rotation="0 0 0" scale="0.7 0.7 0.7"></a-entity>
+        </a-marker>
 
-             <!-- マーカーを設定する -->
-      <a-marker type="pattern" url="./marker/castle.patt">
-        <!-- 3Dモデルを呼び出す -->
-        <a-entity
-        gltf-model="#shibatajo"
-        rotation="-90 0 0"
-        scale="0.1 0.1 0.1"
-        animation=""
-        ></a-entity>
-      </a-marker>
+        <!-- マーカーを設定する -->
+        <a-marker type="pattern" url="./marker/castle.patt">
+            <!-- 3Dモデルを呼び出す -->
+            <a-entity gltf-model="#shibatajo" rotation="-90 0 0" scale="0.1 0.1 0.1" animation=""></a-entity>
+        </a-marker>
 
-             <!-- マーカーを設定する -->
-      <a-marker type="pattern" url="./marker/marutext.patt">
-        <!-- 3Dモデルを呼び出す -->
-        <a-entity
-          gltf-model="#text" 
-          rotation="-90 90 -90"
-          scale="0.4 0.4 0.4"
-          ></a-entity>
-      </a-marker>
-      
+        <!-- マーカーを設定する -->
+        <a-marker type="pattern" url="./marker/marutext.patt">
+            <!-- 3Dモデルを呼び出す -->
+            <a-entity gltf-model="#text" rotation="-90 90 -90" scale="0.4 0.4 0.4"></a-entity>
+        </a-marker>
 
-      
-      
-      <!-- カメラを追加 -->
-      <a-entity camera></a-entity>
+        <!-- マーカーを設定する -->
+        <a-marker type="pattern" url="./marker/sakura.patt">
+            <!-- 3Dモデルを呼び出す -->
+            <a-entity gltf-model="#sakura" rotation="-90 0 0" scale="1 1 1"></a-entity>
+        </a-marker>
+
+        <!-- マーカーを設定する -->
+        <a-marker type="pattern" url="./marker/samurai.patt">
+            <!-- 3Dモデルを呼び出す -->
+            <a-entity gltf-model="#samurai" rotation="-90 0 0" scale="1 1 1"></a-entity>
+        </a-marker>
+
+        <!-- マーカーを設定する -->
+        <a-marker type="pattern" url="./marker/shop1.patt">
+            <!-- 3Dモデルを呼び出す -->
+            <a-entity gltf-model="#shop1" rotation="-90 0 0" scale="1 1 1"></a-entity>
+        </a-marker>
+
+        <!-- マーカーを設定する -->
+        <a-marker type="pattern" url="./marker/shop2.patt">
+            <!-- 3Dモデルを呼び出す -->
+            <a-entity gltf-model="#shop2" rotation="-90 0 0" scale="1 1 1"></a-entity>
+        </a-marker>
+
+
+
+
+        <!-- カメラを追加 -->
+        <a-entity camera></a-entity>
     </a-scene>
-  </body>
-  <script>
-      <!-- glTFの表示が暗くなる問題に対処 -->
-      document.querySelector("a-scene").renderer.gammaOutput=true;
-  </script>
+</body>
+<script>
+    <!-- glTFの表示が暗くなる問題に対処 -->
+    document.querySelector("a-scene").renderer.gammaOutput = true;
+</script>
 <!-- チラつきを抑える -->
-  <script>
-        const sceneEl = document.querySelector('a-scene');
-        sceneEl.addEventListener('loaded', () => {
-            sceneEl.camera = new THREE.PerspectiveCamera();
-        });
-      </script>
+<script>
+    const sceneEl = document.querySelector('a-scene');
+    sceneEl.addEventListener('loaded', () => {
+        sceneEl.camera = new THREE.PerspectiveCamera();
+    });
+</script>
+
 </html>
