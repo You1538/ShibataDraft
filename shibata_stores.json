@@ -7,7 +7,7 @@
         "model": "assets/sakura.glb",
         "position": "",
         "rotation": "",
-        "scale": "",
+        "scale": "1 1 1",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
         "latitude": "37.956296639834825",
         "longitude": "139.33769872162506"
@@ -18,7 +18,7 @@
         "model": "assets/tenisuboru.glb",
         "position": "",
         "rotation": "0 0 0",
-        "scale": "2 2 2",
+        "scale": "1 1 1",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
         "latitude": "37.95618765135197",
         "longitude": "139.3373653532007"
@@ -29,7 +29,7 @@
         "model": "assets/tenisuraketto.glb",
         "position": "",
         "rotation": "80 -140 10",
-        "scale": "5 5 5",
+        "scale": "3 3 3",
         "animation": "",
         "latitude": "37.95624089521487",
         "longitude": "139.33741741580295"
@@ -97,8 +97,8 @@
         "rotation": "-25 0 0",
         "scale": "3 3 3",
         "animation": "property: rotation; to: -25 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.95618765135197",
-        "longitude": "139.3380320900494"
+        "latitude": "37.95630270984656",
+        "longitude": "139.33780404775894"
       },
       {
         "num": "9",
