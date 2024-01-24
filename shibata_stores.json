@@ -102,47 +102,47 @@
       },
       {
         "num": "9",
-        "場所": "",
-        "model": "assets/.glb",
+        "場所": "ダイコン",
+        "model": "assets/daikon.glb",
         "position": "",
         "rotation": "0 0 0",
         "scale": "2 2 2",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "",
-        "longitude": ""
+        "latitude": "37.95625834796702",
+        "longitude": "139.33792103894743"
       },
       {
         "num": "10",
-        "場所": "",
-        "model": "assets/.glb",
+        "場所": "トマト",
+        "model": "assets/tomato.glb",
         "position": "",
         "rotation": "0 0 0",
-        "scale": "1 1 1",
+        "scale": "5 5 5",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "",
-        "longitude": ""
+        "latitude": "37.95630736474065",
+        "longitude": "139.3378588728097"
       },
       {
         "num": "11",
-        "場所": "",
-        "model": "assets/.glb",
+        "場所": "ピーマン",
+        "model": "assets/piman.glb",
         "position": "",
         "rotation": "0 0 0",
         "scale": "2 2 2",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "",
-        "longitude": ""
+        "latitude": "37.9563205155768",
+        "longitude": "139.3377588004905"
       },
       {
         "num": "12",
-        "場所": "",
-        "model": "assets/.glb",
+        "場所": "サムライ",
+        "model": "assets/samurai.glb",
         "position": "",
         "rotation": "0 0 0",
         "scale": "2 2 2",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "",
-        "longitude": ""
+        "latitude": "37.95562422757076",
+        "longitude": "139.33762182974078"
       }
     ]
   }
