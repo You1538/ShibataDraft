@@ -141,8 +141,8 @@
         "rotation": "0 0 0",
         "scale": "3 3 3",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.95564591795168",
-        "longitude": "139.33741304715613"
+        "latitude": "37.95560410290316",
+        "longitude": "139.3374954744629"
       }
     ]
   }
