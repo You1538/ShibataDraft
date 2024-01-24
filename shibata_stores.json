@@ -94,9 +94,9 @@
         "場所": "カレーライス",
         "model": "assets/kare.glb",
         "position": "",
-        "rotation": "-25 0 0",
+        "rotation": "-25 180 0",
         "scale": "3 3 3",
-        "animation": "property: rotation; to: -25 360 0; loop: true; dur: 15000; easing: linear;",
+        "animation": "",
         "latitude": "37.95630270984656",
         "longitude": "139.33780404775894"
       },
