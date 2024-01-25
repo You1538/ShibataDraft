@@ -106,10 +106,10 @@
         "model": "assets/daikon.glb",
         "position": "",
         "rotation": "30 0 30",
-        "scale": "1 1 1",
+        "scale": "1.5 1.5 1.5",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.95617273101083",
-        "longitude": "139.3381287398902"
+        "latitude": "37.95618606939443",
+        "longitude": "139.3380220726254"
       },
       {
         "num": "10",
@@ -117,10 +117,10 @@
         "model": "assets/tomato.glb",
         "position": "",
         "rotation": "0 0 0",
-        "scale": "2 2 2",
+        "scale": "3 3 3",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.956173295227245",
-        "longitude": "139.3380879522046"
+        "latitude": "37.95620140221233",
+        "longitude": "139.33796641679018"
       },
       {
         "num": "11",
@@ -128,10 +128,10 @@
         "model": "assets/piman.glb",
         "position": "",
         "rotation": "0 0 0",
-        "scale": "1 1 1",
+        "scale": "1.5 1.5 1.5",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
-        "latitude": "37.95619812074481",
-        "longitude": "139.3380700628688"
+        "latitude": "37.95624951551675",
+        "longitude": "139.33795702905894"
       },
       {
         "num": "12",
