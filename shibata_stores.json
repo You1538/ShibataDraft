@@ -40,7 +40,7 @@
         "model": "assets/hukiyakouji.glb",
         "position": "",
         "rotation": "0 0 0",
-        "scale": "0.5 0.5 0.5",
+        "scale": "0.4 0.4 0.4",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
         "latitude": "37.951756825183466",
         "longitude": "139.32728873884062"
