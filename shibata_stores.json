@@ -40,7 +40,7 @@
         "model": "assets/hukiyakouji.glb",
         "position": "",
         "rotation": "0 0 0",
-        "scale": "0.4 0.4 0.4",
+        "scale": "0.2 0.2 0.2",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
         "latitude": "37.951756825183466",
         "longitude": "139.32728873884062"
@@ -139,7 +139,7 @@
         "model": "assets/samurai.glb",
         "position": "",
         "rotation": "0 0 0",
-        "scale": "3 3 3",
+        "scale": "1 1 1",
         "animation": "property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear;",
         "latitude": "37.951993282455746",
         "longitude": "139.32675069203995"
